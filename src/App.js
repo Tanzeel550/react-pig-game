@@ -87,7 +87,7 @@ class App extends React.Component {
         }
 
         // 2) Check if the score is greater or equal to 100, set the winnerPlayer
-        if (this.state.megaScores[activePlayer] >= 10) {
+        if (this.state.megaScores[activePlayer] >= 100) {
             await this.winPlayers()
             return
         }
